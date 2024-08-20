@@ -18,7 +18,7 @@ def pencil_sketch(image_path, output_path):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-input_image_path = r'D:\University\Coding\pencil_sketch\garnacho1.jpg.jpg'
-output_image_path = r'D:\University\Coding\pencil_sketch\garnacho1.jpg'
+input_image_path = r'D:\University\Coding\pencil_sketch\garnacho1.jpg'
+output_image_path = r'D:\University\Coding\pencil_sketch\garnacho1_sketch.jpg'
 
 pencil_sketch(input_image_path, output_image_path)
